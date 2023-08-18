@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Відгадайте столиці країн світу</h1>
+        <div>
+            <span>Україна</span>
+            <input type="text" id="capital-1">
+            <button onclick="clue('capital-1', 'Київ')" class="clue">?</button>
+            <button onclick="clearInput('capital-1')">Очистити</button>
+            <button onclick="checkAnswers('capital-1', 'Київ')">Перевірити</button>
+        </div>
+        <div>
+            <span>Польша</span>
+            <input type="text" id="capital-2">
+            <button onclick="clue('capital-2', 'Вар...')" class="clue">?</button>
+            <button onclick="clearInput('capital-2')">Очистити</button>
+            <button onclick="checkAnswers('capital-2', 'Варшава')">Перевірити</button>
+        </div>
+        <div>
+            <span>Німеччина</span>
+            <input type="text" id="capital-3" class="color">
+            <button onclick="clue('capital-3', 'Бер...')" class="clue">?</button>
+            <button onclick="clearInput('capital-3')">Очистити</button>
+            <button onclick="checkAnswers('capital-3', 'Берлін')">Перевірити</button>
+        </div>
+        <div>
+            <span>Литва</span>
+            <input type="text" id="capital-4" class="color">
+            <button onclick="clue('capital-4', 'Віль...')" class="clue">?</button>
+            <button onclick="clearInput('capital-4')">Очистити</button>
+            <button onclick="checkAnswers('capital-4', 'Вільнюс')">Перевірити</button>
+        </div>
+        <div>
+            <span>Франція</span>
+            <input type="text" id="capital-5" class="color">
+            <button onclick="clue('capital-5', 'Пар...')" class="clue">?</button>
+            <button onclick="clearInput('capital-5')">Очистити</button>
+            <button onclick="checkAnswers('capital-5', 'Париж')">Перевірити</button>
+        </div>
+        <div>
+            <span>Італія</span>
+            <input type="text" id="capital-6" class="color">
+            <button onclick="clue('capital-6', 'Ри...')" class="clue">?</button>
+            <button onclick="clearInput('capital-6')">Очистити</button>
+            <button onclick="checkAnswers('capital-6', 'Рим')">Перевірити</button>
+        </div>
+        <div>
+            <span>Норвегія</span>
+            <input type="text" id="capital-7" class="color">
+            <button onclick="clue('capital-7', 'Ос...')" class="clue">?</button>
+            <button onclick="clearInput('capital-7')">Очистити</button>
+            <button onclick="checkAnswers('capital-7', 'Осло')">Перевірити</button>
+        </div>
+        <div>
+            <span>Турція</span>
+            <input type="text" id="capital-8" class="color">
+            <button onclick="clue('capital-8', 'Анк...')" class="clue">?</button>
+            <button onclick="clearInput('capital-8')">Очистити</button>
+            <button onclick="checkAnswers('capital-8', 'Анкара')">Перевірити</button>
+        </div>
+        <div>
+            <span>Чехія</span>
+            <input type="text" id="capital-9" class="color">
+            <button onclick="clue('capital-9', 'Пра...')" class="clue">?</button>
+            <button onclick="clearInput('capital-9')">Очистити</button>
+            <button onclick="checkAnswers('capital-9', 'Прага')">Перевірити</button>
+        </div>
+        <div>
+            <span>Греція</span>
+            <input type="text" id="capital-10" class="color">
+            <button onclick="clue('capital-10', 'Афі...')" class="clue">?</button>
+            <button onclick="clearInput('capital-10')">Очистити</button>
+            <button onclick="checkAnswers('capital-10', 'Афіни')">Перевірити</button>
+        </div>
+        <button onclick="result()" id="result">Результат</button>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 500px;
+    height: 460px;
+    margin: 20px auto;
+    padding: 10px;
+    background-image: url(img/background.jpg);
+    border-radius: 5px;
+}
+.container>div{
+    display: flex;
+    margin: 10px;
+}
+.container>div>span{
+    width: 80px;
+    color: #fff;
+}
+.container>div>input{
+    padding: 0 5px;
+}
+.container>h1{
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+.container>div>button{
+    margin-left: 5px;
+    padding: 0 5px;
+    height: 25px;
+}
+.container>div>button:hover{
+    cursor: pointer;
+    background-color: turquoise;
+}
+.clue{
+    width: 20px;
+}
+#result{
+    width: 100px;
+    height: 30px;
+    background-color: turquoise;
+}
+#result:hover{
+    cursor: pointer;
+}
